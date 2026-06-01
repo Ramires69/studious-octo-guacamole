@@ -61,19 +61,19 @@ footer p{font-family:'Press Start 2P',monospace;font-size:7px;color:#9C9C9C;line
 </style>
 </head>
 <body>
-
+ 
 <div id="lb"><button id="lbc" onclick="lb(0)">✕ CERRAR</button><img id="lbi" src="" alt=""><p id="lbp"></p></div>
-
+ 
 <header><h1>⛏ MOJANG</h1></header>
-
+ 
 <nav><div class="nav-inner">
   <button class="nb on" onclick="show('inicio',this)">🏠 INICIO</button>
   <button class="nb" onclick="show('mojang',this)">🏢 MOJANG</button>
   <button class="nb" onclick="show('galeria',this)">🖼 GALERÍA</button>
 </div></nav>
-
+ 
 <main>
-
+ 
 <section id="inicio" class="sec on">
   <p class="stitle">▶ BIENVENIDO AL ARCHIVO</p>
   <p class="sdesc">Todo sobre Minecraft: Story Mode, el juego narrativo de Telltale Games en colaboración con Mojang.</p>
@@ -95,7 +95,7 @@ footer p{font-family:'Press Start 2P',monospace;font-size:7px;color:#9C9C9C;line
     <div class="card"><h3>MUCHAS PLATAFORMAS</h3><p>PC, Xbox, PlayStation, Switch, iOS, Android, Kindle y Apple TV. Distribución masiva.</p><span class="tag">DISTRIBUCIÓN</span></div>
   </div>
 </section>
-
+ 
 <section id="mojang" class="sec">
   <p class="stitle">▶ MOJANG STUDIOS</p>
   <p class="sdesc">La empresa sueca que cambió los videojuegos para siempre con el juego más vendido de la historia.</p>
@@ -116,7 +116,7 @@ footer p{font-family:'Press Start 2P',monospace;font-size:7px;color:#9C9C9C;line
     <div class="card"><h3>🎓 EDUCATION</h3><p>Minecraft: Education Edition se usa en más de 115 países para enseñar ciencias, historia y programación.</p><span class="tag">EDUCACIÓN</span></div>
   </div>
 </section>
-
+ 
 <section id="galeria" class="sec">
   <p class="stitle">▶ GALERÍA</p>
   <p class="sdesc">Imágenes del universo Minecraft. Clic para ampliar.</p>
@@ -129,11 +129,11 @@ footer p{font-family:'Press Start 2P',monospace;font-size:7px;color:#9C9C9C;line
     <div class="gi" onclick="lb(this)"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/Minecraft_grass_block_side.png/240px-Minecraft_grass_block_side.png" alt="Grass Block" onerror="this.src='https://via.placeholder.com/400x300/5DA832/0D1B2A?text=GRASS+BLOCK'"><div class="gc">BLOQUE ICÓNICO</div></div>
   </div>
 </section>
-
+ 
 </main>
-
+ 
 <footer><p>MOJANG ⛏ MINECRAFT STORY MODE<br>PÁGINA EDUCATIVA — MICROSOFT / TELLTALE GAMES</p></footer>
-
+ 
 <script>
 function show(id,btn){
   document.querySelectorAll('.sec').forEach(s=>s.classList.remove('on'));
